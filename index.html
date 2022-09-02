@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container m-auto flex max-w-xs flex-col place-items-center rounded-xl px-5 md:max-w-sm md:px-0"
+    >
+      <div class="max-w-xs py-7">
+        <img class="rounded-xl" src="images/image-equilibrium.jpg" alt="" />
+      </div>
+
+      <div class="block max-w-xs">
+        <h1 class="pb-5 text-left text-3xl font-semibold text-white">
+          Equilibrium #3429
+        </h1>
+        <p class="softblue pb-5 text-left text-lg md:text-xl">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+
+      <div class="flex border-b-2 border-gray-500 pb-5">
+        <div class="flex text-xs md:text-lg">
+          <img class="px-1" src="images/icon-ethereum.svg" alt="" />
+          <h2 class="cyan">0.041 ETH</h2>
+        </div>
+        <div class="ml-28 flex text-xs md:ml-32 md:text-lg">
+          <img class="px-1" src="images/icon-clock.svg" alt="" />
+          <h2 class="softblue">3 days left</h2>
+        </div>
+      </div>
+
+      <div class="mt-3 mb-7 flex justify-start text-clip">
+        <img
+          class="mr-5 w-10 rounded-full border-2 border-white"
+          src="images/image-avatar.png"
+          alt=""
+        />
+        <span><h2 class="softblue align-bottom">Creation of</h2></span>
+        <span><p class="align-bottom text-white">Jules Wyvern</p></span>
+      </div>
+    </div>
+  </body>
+</html>
